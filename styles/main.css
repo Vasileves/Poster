@@ -12,7 +12,7 @@ body {
 }
 
 .battery{
-  background-color: red;
+  /* background-color: red; */
   position: fixed;
   margin-top: 25vh;
   width: 30vw;
@@ -26,9 +26,10 @@ body {
 .batterytext {
   width: 1000vh;
   height: 65px;
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
   margin: 0 50%;
+  padding-left: 31vh;
   transform: rotate(90deg) translateY(-50%);
   transform-origin: top left;
 }
