@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import "reset.css";
+
+body {
+  margin: 0;
+}
+
+.bluepart {
+  background-color: #005BE5;
+  height: 1000vh;
+  width: 30vw;
+}
+
+.battery{
+  background-color: red;
+  position: fixed;
+  margin-top: 25vh;
+  width: 30vw;
+}
+.battery svg {
+  position: in;
+  margin: 0 50%;
+  transform: translateX(-50%)
+}
+
+.batterytext {
+  width: 1000vh;
+  height: 65px;
+  background-color: yellow;
+  display: flex;
+  margin: 0 50%;
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: top left;
+}
+
+.batterytext p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 55pt;
+  color: #fff;
+}
