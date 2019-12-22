@@ -35,13 +35,22 @@ body {
   z-index: 5;
 }
 
+.power {
+  background: linear-gradient(180deg, rgba(0,91,229,1) 0%, rgba(156,203,255,1) 100%);
+  width: 191px;
+  height: 1000vh;
+  margin: 0 51%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
 .batteryhidebtm {
   width: 29vw;
   height: 26vh;
   position: fixed;
   background-color: #005BE5;
   z-index: 5;
-  margin-top: 466.7px;
+  margin-top: 467px;
 }
 
 .batterytext {
@@ -54,6 +63,7 @@ body {
   transform: rotate(90deg) translateY(-50%);
   transform-origin: top left;
   position: absolute;
+  z-index: 1;
 }
 
 .batterytext p {
@@ -113,12 +123,13 @@ body {
   font-weight: lighter;
   color: #3988FF;
   position: relative;
-  padding-top: 15px;
+  padding-top: 39px;
   padding-left: 140px;
   width: 526px;
   line-height: 107.5%;
   letter-spacing: 1.55pt;
 }
+
 
 .whiteslides slide svg {
 position: relative;
@@ -146,4 +157,5 @@ transform: translate(-50%, -50%);
   display: inline-block;
   transform: translateY(-19px);
   letter-spacing: 1.55pt;
+  width: 221px;
 }
