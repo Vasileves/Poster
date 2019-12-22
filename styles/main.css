@@ -61,8 +61,9 @@ body {
   font-size: 55pt;
   color: #fff;
   /* margin-right: 46vh; */
-  width: 105vh;
+  width: 109vh;
   margin-bottom: -1vw;
+  letter-spacing: 1.55pt;
 }
 
 /* WHITESLIDES */
@@ -83,12 +84,15 @@ body {
 .whiteslides slide {
   width: 70vw;
   height: 100vh;
-  margin: 0 0 5vh 0;
+  margin: 0 0 9vh 0;
   overflow: hidden;
   background-color: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
   -webkit-box-shadow: 2px 20px 40px -19px rgba(0,0,0,0.62);
--moz-box-shadow: 2px 20px 40px -19px rgba(0,0,0,0.62);
-box-shadow: 2px 20px 40px -19px rgba(0,0,0,0.62);
+  -moz-box-shadow: 2px 20px 40px -19px rgba(0,0,0,0.62);
+  box-shadow: 2px 20px 40px -19px rgba(0,0,0,0.62);
+
 }
 
 .whiteslides slide h1 {
@@ -100,6 +104,7 @@ box-shadow: 2px 20px 40px -19px rgba(0,0,0,0.62);
   padding-top: 23vh;
   padding-left: 140px;
   line-height: 107.5%;
+  letter-spacing: 1.55pt;
 }
 
 .whiteslides slide p {
@@ -112,6 +117,7 @@ box-shadow: 2px 20px 40px -19px rgba(0,0,0,0.62);
   padding-left: 140px;
   width: 526px;
   line-height: 107.5%;
+  letter-spacing: 1.55pt;
 }
 
 .whiteslides slide svg {
@@ -121,4 +127,23 @@ height: 64vh;
 margin-left: 54vw;
 margin-top: 15vh;
 transform: translate(-50%, -50%);
+}
+
+#scrolldesk {
+  position: relative;
+  margin-top: 124px;
+  margin-left: 140px;
+}
+
+#scrolldesktext {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24pt;
+  font-weight: lighter;
+  color: #3988FF;
+  position: relative;
+  padding-left: 14px;
+  line-height: 107.5%;
+  display: inline-block;
+  transform: translateY(-19px);
+  letter-spacing: 1.55pt;
 }
