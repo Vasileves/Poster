@@ -29,7 +29,7 @@ body {
 }
 .batteryhidetop {
   width: 29vw;
-  height: 27vh;
+  height: 28vh;
   position: fixed;
   background-color: #005BE5;
   z-index: 5;
@@ -38,10 +38,10 @@ body {
 .power {
   background: linear-gradient(180deg, rgba(0,91,229,1) 0%, rgba(156,203,255,1) 100%);
   width: 191px;
-  height: 1000vh;
+  height: 979vh;
   margin: 0 51%;
   transform: translateX(-50%);
-  z-index: -1;
+  z-index: -2;
 }
 
 .batteryhidebtm {
@@ -49,8 +49,8 @@ body {
   height: 26vh;
   position: fixed;
   background-color: #005BE5;
-  z-index: 5;
-  margin-top: 467px;
+  z-index: -1;
+  margin-top: 458px;
 }
 
 .batterytext {
@@ -58,7 +58,7 @@ body {
   /* height: 65px; */
   /* background-color: yellow; */
   display: flex;
-  margin: 0 51%;
+  margin: 0 50%;
   padding-left: 37vh;
   transform: rotate(90deg) translateY(-50%);
   transform-origin: top left;
