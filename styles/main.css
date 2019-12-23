@@ -38,7 +38,7 @@ body {
 }
 .batteryhidetop {
   width: 29vw;
-  height: 28vh;
+  height: 27.7vh;
   position: fixed;
   background-color: #005BE5;
   z-index: 5;
@@ -192,22 +192,30 @@ transform: translate(-50%, -50%);
 
 #morebtn {
 position: relative;
-width: 213px;
-height: 49px;
+width: 236px;
+height: 56px;
 background-color: #418cff;
 border-radius: 38px;
 margin-left: 9vw;
 margin-top: 6.5vh;
 text-align: center;
 font-family: 'Roboto Condensed', sans-serif;
-font-size: 21pt;
+font-size: 19pt;
 font-weight: normal;
 color: #FFF;
 letter-spacing: 1.55pt;
 display: flex;
 justify-content: center;
 flex-direction: column;
+-webkit-box-shadow: 0px 9px 17px 0px rgba(0,0,0,0.23);
+-moz-box-shadow: 0px 9px 17px 0px rgba(0,0,0,0.23);
+box-shadow: 0px 9px 17px 0px rgba(0,0,0,0.23);
+opacity: 1;
+transition: 0.3s;
+
 }
+
+#morebtn:hover {opacity: 0.6;}
 
 #scrolldesktext {
   font-family: 'Roboto Condensed', sans-serif;
