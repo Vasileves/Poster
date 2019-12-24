@@ -347,7 +347,7 @@
   .whiteslides slide p {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: var(--wsdescr-size);
-    font-weight: light;
+    font-weight: lighter;
     color: #3988FF;
     position: relative;
     margin-top: var(--wsdescr-mtop);
@@ -513,7 +513,7 @@
     /* background-color: yellow; */
     display: flex;
     padding-left: 26vw;
-    padding-top: 12vh;
+    padding-top: 14vh;
     position: absolute;
     z-index: 1;
   }
@@ -558,7 +558,7 @@
 
   .whiteslides slide h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20pt;
+    font-size: 16pt;
     font-weight: bold;
     color: #005BE5;
     position: relative;
@@ -570,13 +570,13 @@
 
   .whiteslides slide p {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 12pt;
-    font-weight: light;
+    font-size: 10pt;
+    font-weight: lighter;
     color: #3988FF;
     position: relative;
     margin-top: 5vh;
     margin-left: 9vw;
-    width: 276px;
+    width: 225px;
     line-height: 107.5%;
     letter-spacing: 1.55pt;
   }
@@ -584,41 +584,41 @@
 
   #apple {
   position: relative;
-  height: var(--apple-h);
-  margin-left: var(--apple-ml);
-  margin-top: var(--apple-mtop);
+  height: 38vh;
+  margin-left: 66vw;
+  margin-top: 17vh;
   transform: translate(-50%, -50%);
   }
 
   #sleep-mask {
   position: relative;
-  height: var(--sleepmask-h);
-  margin-left: var(--sleepmask-ml);
-  margin-top: var(--sleepmask-mtop);
+  height: 38vh;
+  margin-left: 76vw;
+  margin-top: 12vh;
   transform: translate(-50%, -50%);
   }
 
   #to-do {
   position: relative;
-  height:  var(--todo-h);
-  margin-left: var(--todo-ml);
-  margin-top:  var(--todo-mtop);
+  height: 38vh;
+  margin-left: 66vw;
+  margin-top: 23vh;
   transform: translate(-50%, -50%);
   }
 
   #stopwatch {
   position: relative;
-  height: var(--stopwatch-h);
-  margin-left: var(--stopwatch-ml);
-  margin-top: var(--stopwatch-mtop);
+  height: 20vh;
+  margin-left: 75vw;
+  margin-top: 10vh;
   transform: translate(-50%, -50%);
   }
 
   #swords {
   position: relative;
-  height: var(--swords-h);
-  margin-left: var(--swords-ml);
-  margin-top: var(--swords-mtop);
+  height: 38vh;
+  margin-left: 66vw;
+  margin-top: 17vh;
   transform: translate(-50%, -50%);
   }
 
@@ -626,6 +626,7 @@
     position: relative;
     margin-top: var(--wsscroll-mtop);
     margin-left: 9vw;
+    transform: scale(0.9);
   }
 
   #scrolldesk {
