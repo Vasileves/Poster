@@ -474,13 +474,13 @@
   }
   .batterymob svg {
     position: fixed;
-    margin: -1% 13%;
+    margin: 0 53vw;
     transform: translateX(-50%);
     max-width: 67vw;
   }
   .batteryhidetop {
-    width: 29vw;
-    height: 27.7vh;
+    width: 20vw;
+    height: 27vh;
     position: fixed;
     background-color: #005BE5;
     z-index: 5;
@@ -497,12 +497,12 @@
   }
 
   .batteryhidebtm {
-    width: 29vw;
-    height: 260vh;
+    width: 199vw;
+    height: 18vh;
     position: fixed;
     background-color: #005BE5;
     z-index: -1;
-    margin-top: 458px;
+    margin-left: 86vw;
   }
 
   .batterytext {
@@ -521,7 +521,7 @@
     font-size: 24pt;
     color: #fff;
     /* margin-right: 46vh; */
-    width: 109vh;
+    width: 100vw;
     margin-bottom: -1vw;
     letter-spacing: 1.55pt;
   }
