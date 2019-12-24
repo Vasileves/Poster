@@ -443,6 +443,9 @@
     transform: translateY(-19px);
     width: 221px;
   }
+  #swipeleft {
+    display: none;
+  }
 }
 
 @media all and (max-width: 768px){
@@ -480,7 +483,7 @@
   }
   .batteryhidetop {
     width: 21vw;
-    height: 27vh;
+    height: 27.2vh;
     position: fixed;
     background-color: #005BE5;
     z-index: 5;
@@ -488,7 +491,7 @@
 
   .power {
     background: linear-gradient(90deg, rgba(0,91,229,1) 0%, rgba(156,203,255,1) 100%);
-    height: 16vh;
+    height: 104px;
     width: 742vw;
     margin: 50px 52%;
     transform: translateX(-50%);
@@ -497,11 +500,11 @@
 
   .batteryhidebtm {
     width: 199vw;
-    height: 18vh;
+    height: 21vh;
     position: fixed;
     background-color: #005BE5;
     z-index: -1;
-    margin-left: 82vw;
+    margin-left: 81.8vw;
   }
 
   .batterytext {
@@ -555,25 +558,25 @@
 
   .whiteslides slide h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: var(--wstitle-size);
+    font-size: 20pt;
     font-weight: bold;
     color: #005BE5;
     position: relative;
-    margin-top: var(--wstitle-mtop);
-    margin-left: var(--wstitle-ml);
+    margin-top: 5vh;
+    margin-left: 9vw;
     line-height: 107.5%;
     letter-spacing: 1.55pt;
   }
 
   .whiteslides slide p {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: var(--wsdescr-size);
+    font-size: 12pt;
     font-weight: light;
     color: #3988FF;
     position: relative;
-    margin-top: var(--wsdescr-mtop);
-    margin-left: var(--wsdescr-ml);
-    width: 526px;
+    margin-top: 5vh;
+    margin-left: 9vw;
+    width: 276px;
     line-height: 107.5%;
     letter-spacing: 1.55pt;
   }
@@ -619,10 +622,14 @@
   transform: translate(-50%, -50%);
   }
 
-  #scrolldesk {
+  #swipeleft {
     position: relative;
     margin-top: var(--wsscroll-mtop);
     margin-left: 9vw;
+  }
+
+  #scrolldesk {
+    display: none;
   }
 
   #morebtn {
@@ -653,15 +660,6 @@
   #morebtn:hover {opacity: 0.6;}
 
   #scrolldesktext {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 24pt;
-    font-weight: lighter;
-    color: #3988FF;
-    position: relative;
-    padding-left: 14px;
-    line-height: 107.5%;
-    display: inline-block;
-    transform: translateY(-19px);
-    width: 221px;
+    display: none;
   }
 }
