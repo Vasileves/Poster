@@ -530,7 +530,7 @@
     position: absolute;
     z-index: 1;
   }
-}
+  }
   @media all and (max-height: 667px) {
     .batterytext {
       /* width: 1000vh; */
@@ -731,7 +731,16 @@
     background-color: #005BE5;
     z-index: 5;
   }
-
+  @media all {
+  .power {
+    background: linear-gradient(90deg, rgba(0,91,229,1) 0%, rgba(156,203,255,1) 100%);
+    height: 114px;
+    width: 643vw;
+    margin: 59px 52%;
+    transform: translateX(-50%);
+    z-index: -2;
+  }}
+  @media all and (max-height: 667px) {
   .power {
     background: linear-gradient(90deg, rgba(0,91,229,1) 0%, rgba(156,203,255,1) 100%);
     height: 104px;
@@ -739,7 +748,7 @@
     margin: 50px 52%;
     transform: translateX(-50%);
     z-index: -2;
-  }
+  }}
 
   .batteryhidebtm {
     width: 199vw;
@@ -750,6 +759,19 @@
     margin-left: 81.8vw;
   }
 
+  @media all {
+  .batterytext {
+    /* width: 1000vh; */
+    /* height: 65px; */
+    /* background-color: yellow; */
+    display: flex;
+    padding-left: 26vw;
+    padding-top: 12vh;
+    position: absolute;
+    z-index: 1;
+  }}
+
+  @media all and (max-height: 667px){
   .batterytext {
     /* width: 1000vh; */
     /* height: 65px; */
@@ -759,7 +781,8 @@
     padding-top: 13vh;
     position: absolute;
     z-index: 1;
-  }
+  }}
+
 
   .batterytext p {
     font-family: 'Roboto Condensed', sans-serif;
