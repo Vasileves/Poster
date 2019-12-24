@@ -15,6 +15,7 @@
     --wstitle-size: 45pt;
     --wstitle-ml: 9vw;
     --wstitle-mtop: 14vh;
+    --wsscroll-mtop: 12vh;
 
     /*wsdesc*/
     --wsdescr-size: 24pt;
@@ -54,39 +55,40 @@
 
     /* wstitle */
 
-    --wstitle-size: 45pt;
+    --wstitle-size: 41pt;
     --wstitle-ml: 9vw;
-    --wstitle-mtop: 14vh;
+    --wstitle-mtop: 10vh;
+    --wsscroll-mtop: 7vh;
 
     /*wsdesc*/
-    --wsdescr-size: 24pt;
+    --wsdescr-size: 21pt;
     --wsdescr-ml: 9vw;
     --wsdescr-mtop: 39px;
 
     /* apple */
     --apple-h: 59vh;
-    --apple-ml: 57vw;
-    --apple-mtop: 1vh;
+    --apple-ml: 60vw;
+    --apple-mtop: 18vh;
 
     /* sleep-mask */
-    --sleepmask-h: 63vh;
-    --sleepmask-ml: 65vw;
-    --sleepmask-mtop: -2vh;
+    --sleepmask-h: 65vh;
+    --sleepmask-ml: 63vw;
+    --sleepmask-mtop: 15vh;
 
     /* to-do */
-    --todo-h: 61vh;
+    --todo-h: 62vh;
     --todo-ml: 59vw;
-    --todo-mtop: 19vh;
+    --todo-mtop: 24vh;
 
     /* stopwatch */
-    --stopwatch-h: 51vh;
+    --stopwatch-h: 53vh;
     --stopwatch-ml: 58vw;
-    --stopwatch-mtop: 12vh;
+    --stopwatch-mtop: 22vh;
 
     /* swords */
     --swords-h: 61vh;
-    --swords-ml: 57vw;
-    --swords-mtop: 18vh;
+    --swords-ml: 56vw;
+    --swords-mtop: 25vh;
 
   }
 }
@@ -96,43 +98,126 @@
 
     /* wstitle */
 
-    --wstitle-size: 45pt;
+    --wstitle-size: 42pt;
     --wstitle-ml: 9vw;
-    --wstitle-mtop: 14vh;
+    --wstitle-mtop: 10vh;
 
     /*wsdescr*/
-    --wsdescr-size: 24pt;
+    --wsdescr-size: 21pt;
     --wsdescr-ml: 9vw;
-    --wsdescr-mtop: 39px;
+    --wsdescr-mtop: 66px;
 
     /* apple */
-    --apple-h: 66vh;
+    --apple-h: 67vh;
     --apple-ml: 57vw;
-    --apple-mtop: -1vh;
+    --apple-mtop: 14vh;
 
     /* sleep-mask */
     --sleepmask-h: 63vh;
     --sleepmask-ml: 65vw;
-    --sleepmask-mtop: -2vh;
+    --sleepmask-mtop: 16vh;
 
     /* to-do */
     --todo-h: 61vh;
     --todo-ml: 59vw;
-    --todo-mtop: 19vh;
+    --todo-mtop: 22vh;
 
     /* stopwatch */
     --stopwatch-h: 53vh;
-    --stopwatch-ml: 63vw;
-    --stopwatch-mtop: 13vh;
+    --stopwatch-ml: 61vw;
+    --stopwatch-mtop: 19vh;
 
     /* swords */
     --swords-h: 61vh;
-    --swords-ml: 57vw;
-    --swords-mtop: 18vh;
+    --swords-ml: 55vw;
+    --swords-mtop: 23vh;
 
   }
 }
 
+@media all and (max-width: 1024px) {
+  :root {
+
+    /* wstitle */
+
+    --wstitle-size: 42pt;
+    --wstitle-ml: 9vw;
+    --wstitle-mtop: 10vh;
+
+    /*wsdescr*/
+    --wsdescr-size: 21pt;
+    --wsdescr-ml: 9vw;
+    --wsdescr-mtop: 66px;
+
+    /* apple */
+    --apple-h: 62vh;
+    --apple-ml: 57vw;
+    --apple-mtop: 21vh;
+
+    /* sleep-mask */
+    --sleepmask-h: 61vh;
+    --sleepmask-ml: 62vw;
+    --sleepmask-mtop: 18vh;
+
+    /* to-do */
+    --todo-h: 54vh;
+    --todo-ml: 57vw;
+    --todo-mtop: 26vh;
+
+    /* stopwatch */
+    --stopwatch-h: 53vh;
+    --stopwatch-ml: 61vw;
+    --stopwatch-mtop: 19vh;
+
+    /* swords */
+    --swords-h: 50vh;
+    --swords-ml: 55vw;
+    --swords-mtop: 26vh;
+
+  }
+}
+
+@media all and (max-width: 768px) {
+  :root {
+
+    /* wstitle */
+
+    --wstitle-size: 42pt;
+    --wstitle-ml: 9vw;
+    --wstitle-mtop: 10vh;
+
+    /*wsdescr*/
+    --wsdescr-size: 21pt;
+    --wsdescr-ml: 9vw;
+    --wsdescr-mtop: 66px;
+
+    /* apple */
+    --apple-h: 62vh;
+    --apple-ml: 57vw;
+    --apple-mtop: 21vh;
+
+    /* sleep-mask */
+    --sleepmask-h: 61vh;
+    --sleepmask-ml: 62vw;
+    --sleepmask-mtop: 18vh;
+
+    /* to-do */
+    --todo-h: 54vh;
+    --todo-ml: 57vw;
+    --todo-mtop: 26vh;
+
+    /* stopwatch */
+    --stopwatch-h: 53vh;
+    --stopwatch-ml: 61vw;
+    --stopwatch-mtop: 19vh;
+
+    /* swords */
+    --swords-h: 50vh;
+    --swords-ml: 55vw;
+    --swords-mtop: 26vh;
+
+  }
+}
 
 body {
   margin: 0;
@@ -309,7 +394,7 @@ transform: translate(-50%, -50%);
 
 #scrolldesk {
   position: relative;
-  margin-top: 13vh;
+  margin-top: var(--wsscroll-mtop);
   margin-left: 9vw;
 }
 
