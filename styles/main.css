@@ -479,7 +479,7 @@
     max-width: 67vw;
   }
   .batteryhidetop {
-    width: 20vw;
+    width: 21vw;
     height: 27vh;
     position: fixed;
     background-color: #005BE5;
@@ -487,11 +487,10 @@
   }
 
   .power {
-    display: none;
-    background: linear-gradient(180deg, rgba(0,91,229,1) 0%, rgba(156,203,255,1) 100%);
-    height: 19px;
-    width: 762vw;
-    margin: 0 50%;
+    background: linear-gradient(90deg, rgba(0,91,229,1) 0%, rgba(156,203,255,1) 100%);
+    height: 16vh;
+    width: 742vw;
+    margin: 50px 52%;
     transform: translateX(-50%);
     z-index: -2;
   }
@@ -502,7 +501,7 @@
     position: fixed;
     background-color: #005BE5;
     z-index: -1;
-    margin-left: 86vw;
+    margin-left: 82vw;
   }
 
   .batterytext {
@@ -521,7 +520,7 @@
     font-size: 24pt;
     color: #fff;
     /* margin-right: 46vh; */
-    width: 100vw;
+    width: 94vw;
     margin-bottom: -1vw;
     letter-spacing: 1.55pt;
   }
