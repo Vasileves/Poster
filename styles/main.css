@@ -911,7 +911,7 @@
   }
   .batterymob svg {
     position: fixed;
-    margin: 0 53vw;
+    margin: 0 48vw;
     transform: translateX(-50%);
     max-width: 67vw;
   }
@@ -925,9 +925,9 @@
 
   .power {
     background: linear-gradient(90deg, rgba(0,91,229,1) 0%, rgba(156,203,255,1) 100%);
-    height: 104px;
+    height: 121px;
     width: 643vw;
-    margin: 50px 52%;
+    margin: 66px 52%;
     transform: translateX(-50%);
     z-index: -2;
   }
@@ -946,8 +946,8 @@
     /* height: 65px; */
     /* background-color: yellow; */
     display: flex;
-    padding-left: 26vw;
-    padding-top: 13vh;
+    padding-left: 36vw;
+    padding-top: 11vh;
     position: absolute;
     z-index: 1;
   }
@@ -992,7 +992,7 @@
 
   .whiteslides slide h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20pt;
+    font-size: 34pt;
     font-weight: bold;
     color: #005BE5;
     position: relative;
@@ -1004,13 +1004,13 @@
 
   .whiteslides slide p {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 13pt;
+    font-size: 19pt;
     font-weight: lighter;
     color: #3988FF;
     position: relative;
     margin-top: 4vh;
     margin-left: 9vw;
-    width: 285px;
+    width: 401px;
     line-height: 107.5%;
     letter-spacing: 1.55pt;
   }
@@ -1058,9 +1058,9 @@
 
   #swipeleft {
     position: relative;
-    margin-top: 4vh;
+    margin-top: 6vh;
     margin-left: 6vw;
-    transform: scale(0.9);
+    transform: scale(1.2) translateX(15%);
   }
 
   #scrolldesk {
@@ -1069,15 +1069,15 @@
 
   #morebtn {
   position: relative;
-  width: 131px;
-  height: 35px;
+  width: 200px;
+  height: 48px;
   background-color: #418cff;
   border-radius: 38px;
   margin-left: 9vw;
   margin-top: 6.5vh;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 11pt;
+  font-size: 18pt;
   font-weight: normal;
   color: #FFF;
   letter-spacing: 1.55pt;
